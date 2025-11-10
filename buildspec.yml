@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      - npm install
+  build:
+    commands:
+      - echo Build phase complete. No build steps needed for static site.
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
