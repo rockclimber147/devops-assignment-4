@@ -2,13 +2,17 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      nodejs: 18  # or your preferred Node.js version
+  pre_build:
     commands:
       - echo Installing dependencies...
       - npm install
-  build:
+  post_build:
     commands:
-      - echo Build phase complete. No build steps needed for static site.
+      - echo Build completed on `date`
+
 artifacts:
   files:
     - '**/*'
-  discard-paths: no
+  name: myapp-$(date +%Y-%m-%d)
