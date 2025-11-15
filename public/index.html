@@ -1,11 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daylen Smith - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px auto;
+            max-width: 900px;
+            line-height: 1.6;
+            color: #222;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        .header-links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0066cc;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        .role {
+            font-weight: bold;
+        }
+
+        .meta {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
+
 <body>
-    TEST PUSH
+    <h1>DAYLEN SMITH</h1>
+    <div class="header-links">
+        <span>604 600 5964</span> |
+        <a href="#">Email</a> |
+        <a href="#">LinkedIn</a> |
+        <a href="#">Github</a>
+    </div>
+
+    <div class="section">
+        <h2>SOFTWARE DEVELOPER WITH [Skill relevant to posting]</h2>
+        <p>
+            Adaptable and detail-oriented Software Developer with experience in full-stack development,
+            testing, and backend architecture. Demonstrated success at Wärtsilä Voyage by mastering C#,
+            Angular, and Entity Framework to improve production systems and initiate unit testing practices
+            that enhanced code quality and testing efficiency. Led backend design for Unbox, developing
+            scalable Django applications, dynamic email systems, and deployment pipelines using Render, S3,
+            and SendGrid. Recognized for strong communication, mentoring, and documentation skills through
+            peer tutoring and onboarding new developers, contributing to collaborative, high-performing
+            teams.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>TECHNICAL SKILLS</h2>
+        <p><strong>Languages:</strong> Javascript, C#, C, SQL, Python, Java</p>
+        <p><strong>Frameworks:</strong> Django, Entity Framework, LINQ, NodeJS, Angular</p>
+        <p><strong>Tools:</strong> Postman, Github, AWS, Azure, Docker</p>
+    </div>
+
+    <div class="section">
+        <h2>WORK EXPERIENCE</h2>
+
+        <h3>Backend Developer (remote) | Unbox</h3>
+        <div class="meta">May 2025 – Aug 2025</div>
+        <ul>
+            <li>Implemented a bilingual email templating system allowing for dynamic, personalized emails to be sent to
+                15,000+ customers based on admin defined triggers</li>
+            <li>Pioneered a notification microservice which enabled real time, cross platform push and socket
+                notifications to the PWA supporting 1000+ concurrent connections</li>
+            <li>Earned a paid contract extension for development beyond the original practicum due to exceptional
+                performance, proactive communication, and feature delivery beyond initial scope</li>
+            <li>Optimized backend performance by using profiling tools to diagnose and fix SQL query inefficiencies,
+                decreasing key page load times by 95%</li>
+        </ul>
+
+        <h3>Software Engineer Intern | Wärtsilä Voyage</h3>
+        <div class="meta">Jun 2024 – Dec 2024</div>
+        <ul>
+            <li>Bridged unrelated models by integrating checklist logic with file uploads, enabling compliance tracking
+                in port software used in hundreds of daily operations</li>
+            <li>Volunteered to pilot unit testing, implementing 40+ XUnit tests for the Port of Tanger Med’s invoicing
+                module which cut manual testing time from hours to minutes</li>
+            <li>Executed the SCRUM process by evaluating task complexity, collaborating with senior developers during
+                code reviews, and providing clear documentation to support QA testing</li>
+        </ul>
+
+        <h3>Computer Systems Technology Peer Tutor | BCIT</h3>
+        <div class="meta">Sep 2024 – Present</div>
+        <ul>
+            <li>Guided students' learning and growth by developing analogous problems to enhance problem-solving and
+                critical thinking skills with a 100% satisfaction rate</li>
+            <li>Managed the needs of 4+ students simultaneously by delegating tasks and time boxing support sessions to
+                ensure an equitable distribution of resources</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>EDUCATION</h2>
+        <h3>Computer Systems Technology Diploma</h3>
+        <div class="meta">BCIT | Sep 2023 – Dec 2025 | GPA: 95%</div>
+
+        <h3>Bachelor of Science Degree, Major in Chemistry</h3>
+        <div class="meta">University of British Columbia | Sep 2012 – Dec 2016</div>
+    </div>
+
+    <div class="section">
+        <h2>PERSONAL PROJECTS</h2>
+
+        <h3>Developer | Browser Based Syntax Tree Compiler | Github</h3>
+        <div class="meta">Nov 2023</div>
+        <ul>
+            <li>Wrote a lightweight compiler to parse boolean expression strings and output an AST based on operator
+                precedence which helped automate the process of generating truth tables</li>
+            <li>Dynamically displayed the generated trees to the user using Javascript, HTML and SVG to provide an
+                intuitive display of the data structures used by compilers</li>
+        </ul>
+
+        <h3>Developer | Particle Physics Sandbox | Github</h3>
+        <div class="meta">May – Jun 2025</div>
+        <ul>
+            <li>Designed and developed a modular particle collision simulator in TypeScript, HTML, and CSS, enabling
+                real-time visualization of multiple collision detection algorithms</li>
+            <li>Engineered a custom component framework inspired by Angular, implementing MVC, Observer, and Dependency
+                Injection patterns to create reusable, nestable UI modules</li>
+            <li>Created an extensible architecture allowing each collision handler to define its own interactive UI,
+                enabling sandbox customization and easy integration of new physics features</li>
+        </ul>
+
+        <h3>Developer | Mandelbrot and Julia Set Renderer | Github</h3>
+        <div class="meta">Nov 2023</div>
+        <ul>
+            <li>Developed a dynamic fractal renderer using Java Swing which supported rendering complex fractals with
+                real time parameter adjustments via sliders</li>
+            <li>Engineered a custom zoom system that preserved the mouse focal point using a transformed coordinate
+                system, enabling magnification up to 1,000,000× while maintaining visual accuracy</li>
+            <li>Optimized rendering performance by implementing buffered image drawing, improving frame update speed 3×
+                compared to naive pixel-by-pixel rendering</li>
+        </ul>
+
+        <h3>Position | Title | Github</h3>
+        <div class="meta">Month year</div>
+        <p>STARs</p>
+    </div>
+
+    <div class="section">
+        <h2>ACADEMIC PROJECTS</h2>
+
+        <h3>Developer/Team Lead | Naborly | BCIT | Github</h3>
+        <div class="meta">Sep 2023 – Dec 2023</div>
+        <ul>
+            <li>Practiced Agile Methodology and SCRUM to gather requirements, plan, and implement features using GitHub,
+                Figma, and a version of Kanban Methodology using Trello</li>
+            <li>Created a style guide outlining documentation practices using JSDoc which helped the team collaborate
+                and share code more efficiently</li>
+            <li>Built 10+ responsive pages which were dynamically populated from a firestore database and user device
+                GPS location information accessed by the browser using javascript</li>
+        </ul>
+
+        <h3>Developer | Real Time Gaming Platform | BCIT | Github</h3>
+        <div class="meta">Jan 2025 – March 2025</div>
+        <ul>
+            <li>Utilized Typescript and Sequelize ORM with websockets to design a backend server capable of saving user
+                data, friendships, and allowing for real time gaming between users</li>
+            <li>Worked closely in a team of 3 to implement features and meet milestones before the deadlines</li>
+            <li>Hosted the front end, backend, and database using AWS services such as S3, EC2, and RDS to allow
+                classmates to make accounts and play games over the internet</li>
+        </ul>
+
+        <h3>Developer | Single Pass Compiler and 16-bit Computer | Coursera | Github</h3>
+        <div class="meta">Dec 2022 – Apr 2023</div>
+        <ul>
+            <li>Utilized recursive algorithms and the call stack to develop a compiler for the Jack programming language
+                allowing for descriptive error messages and complete translation into VM code</li>
+            <li>Developed a VM translator to translate output VM code into Hack assembly language allowing high level
+                Jack programs to be run on the Nand2Tetris virtual machine</li>
+            <li>Overcame issues and bugs encountered by applying root cause analysis and critical thinking to
+                troubleshoot and solve problems</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>PERSONAL INTERESTS</h2>
+        <ul>
+            <li><strong>Rock Climbing:</strong> Indoors and outdoors, I’m a regular at the Hive bouldering gym</li>
+            <li><strong>Mountaineering:</strong> I’ve climbed over 20 mountains so far, my favourite being the West Lion
+            </li>
+            <li><strong>Cooking:</strong> I’m carrying out intensive R&D to make palatable and healthy bulk freezer
+                meals</li>
+        </ul>
+    </div>
 </body>
+
 </html>
